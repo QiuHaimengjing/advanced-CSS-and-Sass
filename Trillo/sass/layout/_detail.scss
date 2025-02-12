@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as *;
+
 .hotel-view {
   background-color: #fff;
   flex: 1;
@@ -23,6 +25,11 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.8rem;
+      padding: 1.25rem 2rem;
+    }
   }
 
   &__stars {
@@ -58,17 +65,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 0 1.5rem;
+    }
   }
 
   &__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: -3px;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.8rem;
+    }
   }
 
   &__rating-count {
     font-size: .8rem;
     text-transform: uppercase;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: .5rem;
+    }
   }
 }
 
@@ -78,6 +97,14 @@
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: var(--line);
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -85,6 +112,16 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .user-reviews {
