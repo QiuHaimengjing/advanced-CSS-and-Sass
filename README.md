@@ -28,5 +28,5 @@ npm run build:css
 All course content and design come from the Udemy course "Advanced CSS and Sass: Flexbox, Grid, Animations and More!" by Jonas Schmedtmann.
 - [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/)
 - [advanced-css-course](https://github.com/jonasschmedtmann/advanced-css-course)
-- [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/?couponCode=GITHUB4)
+- [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
 
