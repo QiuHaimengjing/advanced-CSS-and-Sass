@@ -6,9 +6,9 @@ This repository contains the source code for the Udemy course "Advanced CSS and 
 
 # Preview
 All three projects are deployed on Vercel and can be accessed via the following links:
-- [Natours](https://natours.invictusqiu.top)
-- [Trillo](https://trillo.invictusqiu.top)
-- [Nexter](https://nexter.invictusqiu.top)
+- [Natours](https://natours.qiuhaijun.com)
+- [Trillo](https://trillo.qiuhaijun.com)
+- [Nexter](https://nexter.qiuhaijun.com)
 
 # Development
 The development environment is Visual Studio Code, with the Live Server extension used for previewing pages.
